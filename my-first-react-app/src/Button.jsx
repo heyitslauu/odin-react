@@ -12,7 +12,7 @@
 // }
 
 
-export const Button = ({text, color, fontSize, handleClick}) => {
+export const Button = ({text, color, fontSize, handleIncrement}) => {
 
     const buttonStyle = {
         color: color,
@@ -20,7 +20,7 @@ export const Button = ({text, color, fontSize, handleClick}) => {
     }
 
     return (
-        <button  style={buttonStyle} onClick={() => handleClick()}>{text}</button>
+        <button  style={buttonStyle} onClick={handleIncrement}>{text}</button>
     )
 }
 
