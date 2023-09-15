@@ -11,14 +11,14 @@ import './index.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    <Greeting/>
+    {/* <Greeting/>
     <Animals/>
     <Brands/>
     <TestComponent1/>
     <TestComponent2/>
     <Rule1/>
     <Rule2/>
-    <Template/>
+    <Template/> */}
     
   </React.StrictMode>,
 )

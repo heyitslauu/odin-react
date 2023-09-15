@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
 
 export const ListItem = (props) => {
-    return <li>{props.animals}</li>
+    
+    return !props.animals.startsWith('C') ? <li>{props.animals}</li> : null
 }
 
 
