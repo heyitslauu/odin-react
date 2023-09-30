@@ -9,7 +9,7 @@ export const Person = () => {
         const newPerson = {...person, age: person.age + 1};
         setPerson(newPerson)
     }
-
+   
 
     return (
         <>
