@@ -1,5 +1,6 @@
-import React, { Component} from "react"
-
+import { Component} from "react"
+import PropTypes from 'prop-types';
+import Count from "./Count";
 class ClassInput extends Component {
   constructor(props) {
     super(props);
@@ -54,9 +55,14 @@ class ClassInput extends Component {
             
           ))}
         </ul>
+
+        <Count todos={this.state.todos} />
       </section>
     )
   }
 }
 
+ClassInput.propTypes = {
+  name: PropTypes.string
+}
 export default ClassInput;
