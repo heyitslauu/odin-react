@@ -4,7 +4,8 @@
 // import { Button } from './Button';
 import './App.css'
 // import { useState } from 'react';
-import { Person, FormSample } from './Person';
+// import { Person, FormSample } from './Person';
+import ClassInput from './ClassSample'
 function App() {
   // const [count, setCount] = useState(0)
   // const sampleArr = ['Cat', 'Dog', 'Duck', 'Geese'];
@@ -28,8 +29,9 @@ function App() {
       {/* <Button fontSize={20} handleClick={handleButtonClick}/> */}
       {/* <h2>{counter}</h2>
       <Button fontSize={20} handleIncrement={handleIncrement}/> */}
-      <Person/>
-      <FormSample/>
+      {/* <Person/>
+      <FormSample/> */}
+      <ClassInput name='Class Based Components'/>
     </>
   )
 }
