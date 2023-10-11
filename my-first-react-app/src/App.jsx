@@ -6,6 +6,7 @@ import './App.css'
 // import { useState } from 'react';
 // import { Person, FormSample } from './Person';
 import ClassInput from './ClassSample'
+import ButtonChange from './ButtonChange'
 function App() {
   // const [count, setCount] = useState(0)
   // const sampleArr = ['Cat', 'Dog', 'Duck', 'Geese'];
@@ -31,6 +32,7 @@ function App() {
       <Button fontSize={20} handleIncrement={handleIncrement}/> */}
       {/* <Person/>
       <FormSample/> */}
+      <ButtonChange />
       <ClassInput name='Class Based Components'/>
     </>
   )
