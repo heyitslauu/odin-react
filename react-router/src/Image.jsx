@@ -21,7 +21,7 @@ const Image = () => {
   if (error) return <p>A network error was encountered</p>
   if (loading) return <p>Loading...</p>;
   return (
-    imageURL && (
+    imageURL && ( 
       <>
         <h1>An image</h1>
         <img src={imageURL} alt={"placeholder text"} />
